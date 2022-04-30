@@ -1,0 +1,96 @@
+body{
+    margin-bottom: 0px;
+    margin-left: 500px;
+    margin-top: 600px;
+    padding: 0;
+    /* background: url(bg.jpg) no-repeat; */
+    background-size: cover;
+    background-image:url("/src/images/showcase1.jpg");
+  }
+  .box{
+    width: 1200px;
+    height:1500px;
+    border:1px outset white;
+    box-shadow: 15px 15px 90px  lightblue, -5px -5px 10px whitesmoke;
+    border-radius:200px;
+    /* background: rgba(0, 0, 0, 0.4); */
+    /* margin-bottom:400px; */
+    background-color:gray;
+    padding: 45px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+    color: white;
+    font-family: 'Century Gothic',sans-serif;
+    background: linear-gradient(235deg,red,black,black,black,black,#060c21,black,#00bbd47c);
+    /* opacity: 0.9; */
+  }
+  .box-img{
+    border:5px inset  whitesmoke;
+    border-radius: 40%;
+    width: 460px;
+    height: 450px;
+    box-shadow: 10px 10px 50px  whitesmoke, -5px -5px 10px whitesmoke;
+    /* background: linear-gradient(235deg, black , yellowgreen,yellow ); */
+  }
+  .box h1{
+      padding-top: 50px;
+      margin-bottom:15px;
+    /* font-weight:900; */
+    font-size: 55px;
+    letter-spacing: 4px;
+    /* text-transform: uppercase; */
+    /* font-weight: 100; */
+  }
+  .box h2{
+      padding:0px;
+      margin-top:0px;
+      font-size: 90px;
+      text-shadow: 20px 1px 18px skyblue;
+  }
+  .box h3{
+    /* margin-top:0px;
+    padding: 0px; */
+    font-size: 34px;
+    font-weight:bold;
+    letter-spacing: 3px;
+    
+  }
+  .box p{
+    text-align: justify;
+    font-size: 30px;
+    word-spacing: 2px;
+    
+  }
+  ul{
+    /* margin: 0; */
+    /* padding: 0; */
+    background:whitesmoke;
+    opacity: 0.3;
+    border-radius: 20px;
+  }
+  .box li{
+    /* display:inline-flex; */
+    /* flex-direction: column; */
+     /* margin: 6px; */
+    color:whitesmoke;
+    padding:10px;
+    display: inline-block;
+    margin-right:50px;
+    list-style: none;
+  }
+  .box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    transition: all ease-in-out 250ms;
+  }
+  /* .box li a:hover{
+    background: white;
+
+  } */
+  
+.box footer h4 {
+    font-size:30px ;
+
+}
